@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(209, 201, 201, 0.735);
+}
+
+header {
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#titulo-header small {
+    color:red;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#titulo-header p {
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#menu-header {
+    display:flex ;
+    gap: 10px;
+    color:black;
+    font-size: 12px;
+}
+
+main {
+    padding: 20px;
+}
+
+#hero {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#texto-hero h1 {
+    font-size: 80px;
+}
+
+#texto-hero p {
+    font-size: 16px;
+
+}
+
+#img-hero img {
+    width: 300px;
+    padding: 20px;
+}
+
+.texto-pequeno {
+    color:red;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#titulo-header p {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#galeria-texto {
+    margin-top: 30px;
+}
+
+.card {
+    background-color: white;
+    width: 30%;
+    margin-top: 20px;
+}
+
+.card img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#galeria-imgs {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.card-texto {
+    padding: 20px;
+}
+
+footer hr {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
